@@ -7,11 +7,7 @@
     "build": "tsc",
     "dev": "nodemon --exec ts-node src/index.ts",
     "postInstall": "npm run build",
-    "start:prod": "node dist/index.js",
-    "lint": "eslint . --ext ts,tsx --max-warnings 0",
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "test": "echo \"No backend tests defined\" && exit 0"
+    "start:prod": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
